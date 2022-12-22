@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+header{
+    position:sticky;
+    width: 1200px;
+    height: 80px;
+    background-color: #A1D6E2;
+}
+main{
+    margin: 0 auto;
+    width: 100%;
+    height:1400px;
+    background-color: #A1D6E2;
+}
+
+nav{
+  width: 1200px;
+  height: 48px;
+  
+}
+.topmenu {
+  list-style-type: none;
+  margin: 13px;
+  padding: 0;
+  float:right;
+}
+
+.item{
+  display: inline;
+  padding: 18px 10px;
+}
+.menu_link{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color:white;
+}
+
+.item a:hover {
+  color: #2C4A52;
+  background-color: #F1F1F2; 
+  padding: 8px;
+}
+
+.myPhoto{
+  width: 200px;
+  height: 261px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:3px solid #F1F1F2;
+  border-radius: 10%;
+}
+
+.profile{
+  width:100%;
+  background-color: black;
+  position: relative;
+}
+
+.profile-photo{
+  width: 50%;
+  float: left;
+}
+
+.profile-title{
+  width:50%;
+  height: 261px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.profile-title h1{
+  text-align: center;
+  display: block;
+  padding-top: 50px;
+  color:#46211A;
+}
+
+.profile-title h2{
+  text-align: center;
+  display: block;
+  padding-top: 12px;
+  color:#693D3D;
+}
+
+ .separator{
+  float:left;
+  width: 100%; 
+  margin-top: 50px;
+}
+
+.first_hr{
+  display: block;
+  width:95%;
+  height: 3px;
+  background-color:#46211A;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts, .brief, .courses, .projects, .education, .languages{
+  float:left;
+  width:50%;
+  height: 200px;
+}
+.skills,.code{
+  float:left;
+  width:50%;
+  height: 300px;
+}
+.projects{
+  float:left;
+  width:50%;
+  height: 200px;
+}
+
+h3{
+  text-align: center;
+  padding-top: 12px;
+}
+
+
+.contact{
+  display: block;
+  text-align: left;
+}
+
+
+.contacts_info, .brief_info, .skills_info, .courses_info, .projects_info, .education_info, .languages_info{
+  margin-top: 20px;
+}
+
+.contacts_info .fa-ul{
+  margin-left: 100px;
+  vertical-align: middle;
+}
+
+.skills_info .fa-ul{
+  margin-left: 100px;
+  vertical-align: middle;
+}
+.courses_info .fa-ul{
+  margin-left: 100px;
+  vertical-align: middle;
+}
+
+.projects_info .fa-ul{
+  margin-left: 80px;
+  vertical-align: middle;
+}
+
+
+#contacts-list li{
+  padding-top: 13px;
+  color:#46211A;
+}
+
+#skills-list li{
+  padding-top: 13px;
+  color:#46211A;
+}
+
+#projects-list li{
+  padding-top: 13px;
+  color:#46211A;
+}
+
+#courses-list li{
+  padding-top: 13px;
+  color:#46211A;
+}
+
+
+#contacts-list a{
+  text-decoration: none;
+  color: white;
+}
+
+#skills-list a{
+  text-decoration: none;
+  color: white;
+}
+
+#courses-list a{
+  text-decoration: none;
+  color: white;
+}
+
+#projects-list a{
+  text-decoration: none;
+  color: white;
+}
+
+.languages_info a{
+  text-decoration: none;
+  color: white;
+}
+
+.education_info p{
+  width: 80%;
+  font-size: 18px;
+  color:#46211A;
+  text-align: left;
+  padding-top: 12px;
+  padding-left: 92px;
+}
+
+.languages_info p{
+  width: 80%;
+  font-size: 18px;
+  color:#46211A;
+  text-align: left;
+  padding-top: 12px;
+  padding-left: 80px;
+}
+
+
+.brief_info{
+  width: 80%;
+  font-size: 18px;
+  color:#46211A;
+  text-align: left;
+  padding-top: 12px;
+  padding-left: 84px;
+}
+
+.pre{
+  width:80%;
+  font-size: 18px;
+  color:#46211A;
+  text-align: left;
+  padding-top: 12px;
+}
+
+.footer{
+  width: 1200px;
+  background-color: #98cdd9;
+  height: 60px;
+}
+
+.copyright{
+  float:left;
+  width:50%;
+  height: 60px;
+}
+
+.copyright p{
+  padding-left: 84px;
+  padding-top: 30px;
+}
+ .logo{
+  float:left;
+  width:50%;
+  height: 60px;
+ }
+
+ .logo img{
+  padding-left: 300px;
+     padding-top: 5px;
+  width:50px;
+  height:50px;
+ }
